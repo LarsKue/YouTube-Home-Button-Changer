@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube Home Button Changer",
+  "version": "1.2",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "web_accessible_resources": [
+    "button.png"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
