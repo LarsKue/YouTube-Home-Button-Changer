@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Youtube Home Button Changer",
-  "version": "1.2",
+  "version": "1.3",
   "background": {
     "scripts": ["background.js"]
   },
